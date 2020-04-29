@@ -1,20 +1,16 @@
-package com.nguyendinhdoan.myapp.ui.foodlist;
+package com.nguyendinhdoan.myapp.ui.foodlist.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
-import androidx.lifecycle.ViewModelProviders;
 
-import com.nguyendinhdoan.myapp.R;
 import com.nguyendinhdoan.myapp.databinding.FragmentFoodListBinding;
+import com.nguyendinhdoan.myapp.ui.foodlist.viewmodel.FoodListViewModel;
 
 
 public class FoodListFragment extends Fragment {
