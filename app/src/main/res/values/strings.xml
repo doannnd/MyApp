@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">MyApp</string>
+
+    <!--message-->
+    <string name="message_already_logged_in">User already logged in!</string>
+    <string name="message_error_login">Login firebase auth error!</string>
+    <string name="message_login_firebase_error">Login firebase error!</string>
+    <string name="message_login_firebase_success">Login firebase success!</string>
+    <string name="message_user_exist_in_user_table">User exist in user table!</string>
+    <string name="message_register_success">Register success!</string>
+
+    <!--hint-->
+    <string name="hint_name">Name</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_phone">Phone</string>
+
+    <!--text-->
+    <string name="text_register">Register</string>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_guide_register">Please enter full info to register account</string>
+    <string name="text_popular_categories">Popular Categories</string>
+    <string name="text_best_deals">Best Deals</string>
+    
+    <!--navigation-->
+    <string name="menu_home">Home</string>
+    <string name="menu_menu">Categories</string>
+    <string name="menu_food_list">Food list</string>
+    <string name="home_second">Home Second</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

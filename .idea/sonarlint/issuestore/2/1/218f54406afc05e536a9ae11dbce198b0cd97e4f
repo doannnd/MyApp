@@ -1,0 +1,11 @@
+
+>
+java:S1604"(Make this anonymous inner class a lambda(è‰  
+|
+java:S1450"aRemove the "slideshowViewModel" field and declare it as a local variable in the relevant methods.(—‡âûÿÿÿÿ
+T
+java:S1172"9Remove this unused method parameter "savedInstanceState".(©ó‘ãøÿÿÿÿ
+U
+java:S1874":Remove this use of "ViewModelProviders"; it is deprecated.(ë ÔÒøÿÿÿÿ
+E
+java:S1874"*Remove this use of "of"; it is deprecated.(ë ÔÒøÿÿÿÿ

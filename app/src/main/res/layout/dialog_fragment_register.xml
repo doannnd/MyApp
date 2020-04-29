@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_corner_3dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_register"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/text_size_18"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_guide_register"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_16"
+        android:textStyle="italic" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_name"
+        android:inputType="text|textNoSuggestions"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_16" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_address"
+        android:inputType="text|textNoSuggestions"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_16" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edt_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_phone"
+        android:inputType="number|textNoSuggestions"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_16" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_register"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_green_border_white_corner_3dp"
+            android:text="@string/text_register"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_8"
+            android:layout_marginLeft="@dimen/dimen_8"
+            android:layout_weight="1"
+            android:background="@drawable/bg_white_border_green_corner_3dp"
+            android:text="@string/text_cancel"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_size_16" />
+
+    </LinearLayout>
+
+</LinearLayout>
