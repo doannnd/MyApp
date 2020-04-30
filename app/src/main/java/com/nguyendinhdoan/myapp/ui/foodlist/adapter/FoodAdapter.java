@@ -9,7 +9,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.nguyendinhdoan.myapp.data.models.FoodDTO;
+import com.nguyendinhdoan.myapp.data.models.FoodEvent;
 import com.nguyendinhdoan.myapp.databinding.ItemFoodListBinding;
+
+import org.greenrobot.eventbus.EventBus;
 
 import java.util.List;
 
@@ -39,6 +42,13 @@ public class FoodAdapter extends RecyclerView.Adapter<FoodAdapter.FoodViewHolder
 
             binding.tvFoodPrice.setText("$" + foodDTO.getPrice() + "");
             binding.tvFoodName.setText(foodDTO.getName());
+
+            holder.itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    EventBus.getDefault().post(new FoodEvent(foodDTO));
+                }
+            });
         }
     }
 
